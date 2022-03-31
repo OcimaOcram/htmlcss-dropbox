@@ -89,3 +89,35 @@ header img {
 #jumbotron #containerj button {
     margin-top: 20px;
 }
+/* Inizio tre possibilità di fatturazione */
+main {
+    margin: auto;
+    width: 70%;
+}
+main h1 {
+    margin:20% 0% 10% 0%;
+}
+
+main div span  {
+    padding-top: 50px;
+    margin-right: 2%;
+}
+
+.piani-fatturazione {
+    margin-right: 20px;
+    width: calc(33% - 40px);
+    display: inline-block;
+    border: solid 1px;
+}
+.primo-blocco {
+    text-align: center;
+}
+
+.container-blocco {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.container-blocco * {
+    margin-top: 15px;
+}
