@@ -26,6 +26,7 @@ button {
 /* Inizio header */
 header{
     height: 70px;
+    position: fixed;
 }
 header::after {
     content: "";
