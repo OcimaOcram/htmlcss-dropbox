@@ -3,3 +3,42 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* Regole generali */
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+button {
+    padding: 7px;
+}
+/* utility */
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+/* Inizio header */
+header{
+    height: 70px;
+}
+header::after {
+    content: "";
+    clear: both;
+  display: table;
+}
+
+header img {
+    float: left;
+    padding: 15px;
+}
+
+header ul li button {
+    background-color: aqua;
+}
+
