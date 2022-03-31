@@ -16,12 +16,22 @@ li {
 button {
     padding: 7px;
 }
+i {
+    display: block;
+}
 /* utility */
 .float-left {
     float: left;
 }
 .float-right {
     float: right;
+}
+
+.w-70 {
+    width: 70%;
+}
+.inline {
+    display: inline;
 }
 
 /* Inizio header */
@@ -62,16 +72,20 @@ header img {
     transform: translate(-50%, -50%);
 }
 #jumbotron #containerj h1 {
-    font-size: 45px;
+    font-size: 50px;
 }
-#conteiner-scrittaj {
-    width: 100%;
-}
+
 #scrittaj {
     width: 30%;
     float: left;
     padding-top: 5%;
 }
-#jumbotron #containerj button {
 
+#jumbotron #containerj .w-70 img {
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+#jumbotron #containerj button {
+    margin-top: 20px;
 }
