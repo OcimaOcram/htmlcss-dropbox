@@ -97,6 +97,9 @@ main {
 main h1 {
     margin:20% 0% 10% 0%;
 }
+#container-radio {
+    margin-bottom: 5%;
+}
 
 main div span  {
     padding-top: 50px;
@@ -119,5 +122,8 @@ main div span  {
 }
 
 .container-blocco * {
-    margin-top: 15px;
+    margin-top: 10px;
+}
+.container-blocco ul li span {
+    color: blue;
 }
